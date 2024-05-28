@@ -6,8 +6,8 @@ const Country = () => {
   return (
     <div className="color-theme">
       <div className="filter-container">
-        <Link className="btn box-shadow" to="../">
-          <IconArrowLeft />
+        <Link className="btn box-shadow p-relative" to="../">
+          <IconArrowLeft className="arrow" />
           Back
         </Link>
       </div>
